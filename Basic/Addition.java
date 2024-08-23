@@ -1,20 +1,22 @@
 import java.util.*;
-import java.lang.*;
+import java.util.Scanner;
 
-public class Addition
+public class add
 {
-    public static void main(String[] args)
+    public static void main(String[]args)
     {
-        int N1,N2,Addition;
-        Scanner S=new Scanner (System.in);
+        int num1=0;
+        int num2=0;
+        int add=0;
 
-        System.out.print("\n Enter 1st number");
-        N1=S.nextInt();
-        System.out.print("\n Enter 2nd number");
-        N2=S.nextInt();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter  first number");
+        num1=sc.nextInt();
+        System.out.println("enter second number");
+        num2=sc.nextInt();
+        
+        add=num1 + num2;
+        System.out.println("\nAddition of"+num1+"&"+num2+"is = "+add);
 
-        Addition =a + b;
-
-        System.out.println("\n Addition of "+ N1 +" & " +N2 +" is = " +addition+ ".");
     }
 }
